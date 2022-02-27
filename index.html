@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOC hangman</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/SOClogo.png" alt="SOC logo" width="85" height="70" />
+      <h1 class="hangman">Hangman</h1>
+    </header>
+
+    <div class="scoreboard">
+      <img
+        id="trophy"
+        src="./images/trophy.png"
+        alt="scoreboard icon"
+        width="50"
+        height="45"
+      />
+      <h2 id="scoreDisplayed"></h2>
+    </div>
+
+    <div class="pagedisplay">
+      <img id="startImg" src="./images/start.png" alt="Start button" />
+      <img id="gameoverimg" src="./images/gameover.jpeg" alt="GAME OVER" />
+
+      <div id="letterbuttonsid" class="letterbuttons">
+        <!-- <div id="letterbuttonsid" class="letterbuttons" style="border: red solid 1px; "> -->
+        <div class="letterRow1">
+          <p><input type="button" id="btnA" value="A" /></p>
+          <p><input type="button" id="btnB" value="B" /></p>
+          <p><input type="button" id="btnC" value="C" /></p>
+          <p><input type="button" id="btnD" value="D" /></p>
+          <p><input type="button" id="btnE" value="E" /></p>
+        </div>
+
+        <div class="letterRow2">
+          <p><input type="button" id="btnF" value="F" /></p>
+          <p><input type="button" id="btnG" value="G" /></p>
+          <p><input type="button" id="btnH" value="H" /></p>
+          <p><input type="button" id="btnI" value="I" /></p>
+          <p><input type="button" id="btnJ" value="J" /></p>
+        </div>
+
+        <div class="letterRow3">
+          <p><input type="button" id="btnK" value="K" /></p>
+          <p><input type="button" id="btnL" value="L" /></p>
+          <p><input type="button" id="btnM" value="M" /></p>
+          <p><input type="button" id="btnN" value="N" /></p>
+          <p><input type="button" id="btnO" value="O" /></p>
+        </div>
+
+        <div class="letterRow4">
+          <p><input type="button" id="btnP" value="P" /></p>
+          <p><input type="button" id="btnQ" value="Q" /></p>
+          <p><input type="button" id="btnR" value="R" /></p>
+          <p><input type="button" id="btnS" value="S" /></p>
+          <p><input type="button" id="btnT" value="T" /></p>
+        </div>
+
+        <div class="letterRow5">
+          <p><input type="button" id="btnU" value="U" /></p>
+          <p><input type="button" id="btnV" value="V" /></p>
+          <p><input type="button" id="btnW" value="W" /></p>
+          <p><input type="button" id="btnX" value="X" /></p>
+          <p><input type="button" id="btnY" value="Y" /></p>
+        </div>
+
+        <div class="letterRow6">
+          <p><input type="button" id="btnZ" value="Z" /></p>
+        </div>
+      </div>
+
+      <!-- <div class>
+            <img id="gameoverimg" src="../images/gameover.jpeg" alt="GAME OVER">
+        </div> -->
+
+      <div class="dashesAndWord" style="border: red solid 1px">
+        <!-- <input type="button" id="startbutton" value="Start game"> -->
+        <div id="restartANDnewwordbuttondiv">
+          <input type="button" id="newwordbutton" value="New word" />
+          <input type="button" id="restartbutton" value="Restart Game" />
+        </div>
+
+        <p id="dash"></p>
+        <h1 id="displayword"></h1>
+      </div>
+
+      <div class="hangmanImgArea" style="border: red solid 1px">
+        <img
+          id="hangmanImg"
+          src="./images/hangmanImg1.png"
+          alt="hangman image"
+        />
+      </div>
+    </div>
+
+    <!-- <script src="./js/wordlist.js"></script> -->
+    <!-- <script type="module" src="../app.js"></script> -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
