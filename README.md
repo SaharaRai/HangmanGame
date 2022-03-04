@@ -1,4 +1,4 @@
-This game has been deployed at https://hangmangame-by-sahara.netlify.app/. Please have a play.
+This game has been deployed at https://hangmangame-by-sahara.netlify.app/. Please have a play in your computer (not mobile responsive yet).
 
 # 1. About
 
@@ -11,6 +11,8 @@ It is a hangman game written in javascript, html and styled using css. The word 
 If you played the game, you may have noticed that the score does not update. My plan is to have scores with username to be stored in a database so high scores can be displayed.
 
 If you click on new word, new game with a new word will be started. However, if a game is lost and the restart button is clicked, it rerenders the site. This was a quick fix solution that needs to be updated.
+
+It is a responsive website currently, and would like to make it responsive to both mobile and larger screen devices.
 
 # 3. Major challengs and learnings from the project
 
